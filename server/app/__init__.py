@@ -1,0 +1,2 @@
+"""OpenCV AR sticker server."""
+

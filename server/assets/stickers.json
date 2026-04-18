@@ -1,0 +1,58 @@
+[
+  {
+    "id": "sunglasses",
+    "name": "Cool Shades",
+    "file": "sunglasses.png",
+    "anchor": "eyes",
+    "scale": 0.82,
+    "yOffset": 0.38,
+    "sprite": {
+      "x": 0,
+      "y": 0,
+      "width": 256,
+      "height": 256
+    }
+  },
+  {
+    "id": "crown",
+    "name": "Crown",
+    "file": "crown.png",
+    "anchor": "forehead",
+    "scale": 0.88,
+    "yOffset": -0.18,
+    "sprite": {
+      "x": 256,
+      "y": 0,
+      "width": 256,
+      "height": 256
+    }
+  },
+  {
+    "id": "cat",
+    "name": "Cat Face",
+    "file": "cat.png",
+    "anchor": "face",
+    "scale": 1.06,
+    "yOffset": 0.08,
+    "sprite": {
+      "x": 512,
+      "y": 0,
+      "width": 256,
+      "height": 256
+    }
+  },
+  {
+    "id": "panda",
+    "name": "Panda Mask",
+    "file": "panda.png",
+    "anchor": "face",
+    "scale": 1.08,
+    "yOffset": 0.08,
+    "sprite": {
+      "x": 768,
+      "y": 0,
+      "width": 256,
+      "height": 256
+    }
+  }
+]
