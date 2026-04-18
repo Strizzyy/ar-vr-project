@@ -27,6 +27,17 @@ export function useCamera() {
       if (videoRef.current) {
         videoRef.current.srcObject = stream;
         await videoRef.current.play();
+        // Wait until the video is actually producing frames (mobile needs this)
+        await new Promise<void>((resolve) => {
+          const check = () => {
+            if (videoRef.current && videoRef.current.videoWidth > 0) {
+              resolve();
+            } else {
+              requestAnimationFrame(check);
+            }
+          };
+          check();
+        });
       }
       setReady(true);
       setError("");
