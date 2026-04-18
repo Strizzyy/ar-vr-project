@@ -9,7 +9,7 @@ def create_app() -> Flask:
     app = Flask(__name__)
     CORS(app)
     app.register_blueprint(api, url_prefix="/api")
-    app.register_blueprint(assets, url_prefix="/assets")
+    app.register_blueprint(assets, url_prefix="/api/assets")
 
     @app.route("/", defaults={"path": ""})
     @app.route("/<path:path>")

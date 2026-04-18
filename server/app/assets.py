@@ -96,7 +96,7 @@ def serialize_stickers(base_url: str = "") -> list[dict]:
             "id": sticker.id,
             "name": sticker.name,
             "anchor": sticker.anchor,
-            "url": f"{base_url}/assets/stickers/{sticker.file}",
+            "url": f"{base_url}/api/assets/stickers/{sticker.file}",
         }
         for sticker in load_stickers()
     ]
