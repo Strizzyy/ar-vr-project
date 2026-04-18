@@ -2,6 +2,8 @@
 
 Client/server demo for Snapchat-like AR sticker placement on detected faces.
 
+Live at: https://ar-vr-project-3n6q.onrender.com
+
 ## Project layout
 
 ```text
